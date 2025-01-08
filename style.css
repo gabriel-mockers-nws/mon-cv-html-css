@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Orbitron";
+  src: url(/Fonts/Orbitron-Regular.ttf) format(truetype);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Orbitron";
+  src: url(/Fonts/Orbitron-Bold.ttf) format(truetype);
+  font-weight: 700;
+}
+
+* {
+  font-family: "Orbitron";
+}
+
+.header-title {
+  text-align: center;
+}
+
+.header-nav a {
+  color: black;
+  text-decoration: underline;
+}
+
+.header-nav a:hover,
+.footer-nav a:hover,
+.contact a:hover {
+  text-decoration: none;
+  color: orange;
+  transition: color 0.3s;
+}
+
+.header-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  height: 100px;
+}
+
+.contact a {
+  text-decoration: underline;
+  color: black;
+}
+
+.contact a:hover {
+  text-decoration: none;
+  color: orange;
+}
+
+.forma {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.experiences {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-nav a {
+  text-decoration: underline;
+  color: black;
+}
+
+.footer-nav a:hover {
+  text-decoration: none;
+  color: orange;
+}
+
+@media (max-width: 742px) {
+  .header-info {
+    position: relative;
+  }
+  .header-nav {
+    float: none;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .header-nav a {
+    display: inline-block;
+    margin: 0px 5px 5px 5px;
+    white-space: nowrap;
+  }
+}
