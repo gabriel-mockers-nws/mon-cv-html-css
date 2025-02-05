@@ -20,12 +20,18 @@
   font-family: "Orbitron";
 }
 
+html, body, main {
+  background-color: #191919;
+  color: aliceblue;
+  max-width: auto;
+}
+
 .header-title {
   text-align: center;
 }
 
 .header-nav a {
-  color: black;
+  color: white;
   text-decoration: underline;
 }
 
