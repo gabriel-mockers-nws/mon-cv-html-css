@@ -21,7 +21,7 @@
 }
 
 html, body, main {
-  background-color: #191919;
+  background-color: #2a2625;
   color: aliceblue;
   max-width: auto;
 }
@@ -50,9 +50,16 @@ html, body, main {
   height: 100px;
 }
 
+img {
+  width: 95%;
+  max-height: 650px; /* Ajuste selon ton besoin */
+  display: block;
+  margin: auto;
+}
+
 .contact a {
   text-decoration: underline;
-  color: black;
+  color: white;
 }
 
 .contact a:hover {
@@ -74,7 +81,7 @@ html, body, main {
 
 .footer-nav a {
   text-decoration: underline;
-  color: black;
+  color: white;
 }
 
 .footer-nav a:hover {
