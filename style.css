@@ -1,6 +1,8 @@
 *,
 *::before,
 *::after {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -26,8 +28,37 @@ html, body, main {
   max-width: auto;
 }
 
+h1, 
+h2, 
+p, 
+a {
+  margin-top: 25px;
+}
+
+ul {
+  margin-left: 35px;
+}
+
+hr {
+  margin: 25px 35px ;
+}
+
+img {
+  width: 95%;
+  max-height: 650px; /* Ajuste selon ton besoin */
+  display: block;
+  margin: auto;
+}
+
+section, 
+footer {
+  margin: 25px 35px;
+}
+
 .header-title {
   text-align: center;
+  margin-bottom: 35px;
+  padding-top: 35px;
 }
 
 .header-nav a {
@@ -48,13 +79,6 @@ html, body, main {
   display: flex;
   justify-content: space-evenly;
   height: 100px;
-}
-
-img {
-  width: 95%;
-  max-height: 650px; /* Ajuste selon ton besoin */
-  display: block;
-  margin: auto;
 }
 
 .contact a {
