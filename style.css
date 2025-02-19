@@ -35,9 +35,12 @@ a {
   margin-top: 25px;
 }
 
-ul {
+ul, 
+li {
   margin-left: 35px;
+  margin-top: 10px;
 }
+
 
 hr {
   margin: 25px 35px ;
@@ -89,6 +92,10 @@ footer {
 .contact a:hover {
   text-decoration: none;
   color: orange;
+}
+
+.competences h2 {
+  margin-bottom: 10px;
 }
 
 .forma {
