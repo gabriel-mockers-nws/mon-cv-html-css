@@ -8,13 +8,13 @@
 
 @font-face {
   font-family: "Orbitron";
-  src: url(/fonts/Orbitron-Regular.ttf) format(truetype);
+  src: url(/mon-cv-html-css/fonts/Orbitron-Regular.ttf) format(truetype);
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Orbitron";
-  src: url(/fonts/Orbitron-Bold.ttf) format(truetype);
+  src: url(/mon-cv-html-css/fonts/Orbitron-Bold.ttf) format(truetype);
   font-weight: 700;
 }
 
@@ -26,7 +26,6 @@ html, body, main {
   background-color: #2a2625;
   color: aliceblue;
   max-width: auto;
-  font-family: "Orbitron";
 }
 
 h1, 
